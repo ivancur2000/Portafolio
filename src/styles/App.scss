@@ -1,2 +1,63 @@
 @import "./custom.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//carousel
+.item{
+  height: 579px;
+  width: 100vw;
+  background: url(../img/work-731198_1280.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+.item2{
+  height: 579px;
+  width: 100vw;
+  background: url(../img/code-1076536_1280.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+.item3{
+  height: 579px;
+  width: 100vw;
+  background: url(../img/coffee-2714970_1280.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+.fotografic{
+  width: 276px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.content{
+  background: #fff;
+  border-radius: 20px;
+  border: 5px solid #343A40;
+}
+.content hr{
+  background: #A9A9A9;
+}
+@media screen and (max-width: 870px){
+  .item{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .item2{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .item3{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .fotografic{
+    width: 156px;
+    height: 170px;
+    margin-bottom: 50px;
+  }
+  .content{
+    margin-bottom: 150px;
+  }
+}
+
