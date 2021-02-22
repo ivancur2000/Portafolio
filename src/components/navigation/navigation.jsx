@@ -18,13 +18,13 @@ const Navigation = ()=>{
               <Link className="text-light" to="/">Inicio</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link className="text-light" to="/presentation">Un Poco sobre mi</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="text-light" to="/tools">Mis Conocimientos</Link>
+              <Link className="text-light" to="/my-skills">Mis habilidades</Link>
             </Nav.Link>
             <Nav.Link>
               <Link className="text-light" to="/proyects">Mis Proyectos</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link className="text-light" to="/contact-form">Contáctame</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

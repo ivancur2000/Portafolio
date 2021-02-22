@@ -1,8 +1,8 @@
 import {Switch, Route} from 'react-router-dom';
 //import components
 import PrincipalView from '../principal-view/principal-view';
-import PresentView from '../presentation-view/presentation-view';
 import ToolsView from '../knowledge-views/tools-view';
+import ContactForm from '../contact-form/contact-form';
 import ProyectsView from '../proyects-view/proyects-view';
 
 
@@ -12,14 +12,14 @@ const Routes = ()=>{
       <Route exact path="/">
         <PrincipalView/>
       </Route>
-      <Route path="/presentation">
-        <PresentView/>
-      </Route>
-      <Route path="/tools">
+      <Route path="/my-skills">
         <ToolsView/>
       </Route>
       <Route path="/proyects">
         <ProyectsView/>
+      </Route>
+      <Route path="/contact-form">
+        <ContactForm/>
       </Route>
     </Switch>
   );
